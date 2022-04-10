@@ -1,6 +1,17 @@
 # Compactyl - A Compact Dactyl ManuForm Keyboard
 
-This is a fork of the [okke fork](https://github.com/okke-formsma/dactyl-manuform-tight) of the [l4u fork](https://github.com/l4u/dactyl-manuform-mini-keyboard) of the [tshort fork](https://github.com/tshort/dactyl-keyboard) of the [Dactyl](https://github.com/adereth/dactyl-keyboard), a parameterized, split-hand, concave, columnar, ergonomic keyboard.
+This is a fork of the [dereknheiley_fork](https://github.com/dereknheiley/compactyl) of [okke fork](https://github.com/okke-formsma/dactyl-manuform-tight) of the [l4u fork](https://github.com/l4u/dactyl-manuform-mini-keyboard) of the [tshort fork](https://github.com/tshort/dactyl-keyboard) of the [Dactyl](https://github.com/adereth/dactyl-keyboard), a parameterized, split-hand, concave, columnar, ergonomic keyboard.
+
+## Features/Improvements in this fork/branch
+- Remove the last row having 2 keys via `last_row_with_2_keys`
+- Add your own text to the case/bottom via `bottom_plate_text`/`case_text`
+- Add cap-cutout-handlers in `cap-cutout-handler`
+- Customize cap cutouts for each position via `sa-cap-cutout-mod-generic` (see `cap-cutout-handler-3x5-no-2-keys-last-row`)
+- Reduce hotswap case cutout to prevent gaps in walls during FDM printing (see `key-places` and `hotswap-case-cutout-less-left`)
+- Closed some wall gaps
+- Control `use_hotswap_led_cutout`
+- Control `use_hotswap_friction_holes`
+- Control `use_switch-dogbone-cutout`
 
 ## V3.1 Features
 - Added support for tilting outer index and pinky columns only
